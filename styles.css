@@ -76,6 +76,16 @@
     margin-right: 10%
 }
 
+.container_2 img {
+  border: 1px solid #000000;
+  border-radius: 2px;
+  padding: 5px;
+  width: 150px;
+}
+
+.container_2:hover img {
+    transform: scale(1.05);
+}
 
 
 .home_archive {
