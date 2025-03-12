@@ -78,9 +78,8 @@
 
 .container_2 img {
   border: 1px solid #000000;
-  border-radius: 2px;
-  padding: 5px;
-  width: 150px;
+  border-radius: 4px;
+  width: 340px;
 }
 
 .container_2:hover img {
