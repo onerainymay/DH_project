@@ -174,7 +174,7 @@ p {
 
 /* Archive item individual pages CSS styling */
 
-.item_page {
+.item_page img {
     height: auto;
     max-width: 100%;
 }
