@@ -175,7 +175,7 @@ p {
 /* Archive item individual pages CSS styling */
 
 .item_page {
-    align: center;
+    align-items: center;
 }
 
 .item_page img {
