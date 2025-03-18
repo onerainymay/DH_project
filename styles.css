@@ -171,3 +171,14 @@ p {
 .gallery-item a {
     text-decoration: none;
 }
+
+/* Archive item individual pages CSS styling */
+
+.item_page {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
