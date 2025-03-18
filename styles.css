@@ -174,9 +174,13 @@ p {
 
 /* Archive item individual pages CSS styling */
 
+.item_page {
+    align: center;
+}
+
 .item_page img {
-    height: auto;
     max-width: 100%;
+    height: auto;
 }
 
 
