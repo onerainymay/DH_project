@@ -175,10 +175,8 @@ p {
 /* Archive item individual pages CSS styling */
 
 .item_page {
-    display: flex;
     max-width: 70%;
     justify-content: center;
-    align-items: center;
 }
 
 
