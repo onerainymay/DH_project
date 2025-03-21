@@ -175,13 +175,10 @@ p {
 /* Archive item individual pages CSS styling */
 
 .item_page {
-    align-items: center;
-}
-
-.item_page img {
+    display: flex;
     max-width: 70%;
-    display: block;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
