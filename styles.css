@@ -183,6 +183,18 @@ p {
     max-width: 70%;
 }
 
+.item_page {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.item_page img {
+    width: 70vw;
+    max-width: 1000px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
 
 
 
