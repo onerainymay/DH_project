@@ -175,8 +175,12 @@ p {
 /* Archive item individual pages CSS styling */
 
 .item_page {
-    max-width: 70%;
+    display: flex;
     justify-content: center;
+}
+
+.item_page img {
+    max-width: 70%;
 }
 
 
