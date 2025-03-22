@@ -2,13 +2,55 @@
 
 .nav_button {
     font-family: "Cambria", "Times New Roman", sans-serif;
-    color: #5c5c5c;
-    font-size: 10px;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px 0;
+    background: transparent; /* Changed from white to transparent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Remove these properties */
+    /* position: sticky;
+    top: 0;
+    z-index: 100; */
 }
 
+.nav_button button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 25px;
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav_button button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #5c5c5c;
+    transition: all 0.3s ease;
+}
+
+.nav_button button:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.nav_button a {
+    text-decoration: none;
+    color: black;  /* Changed from #5c5c5c to black */
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Remove or comment out .nav_button button:hover a since we want to keep text black */
+/* .nav_button button:hover a {
+    color: #000000;
+} */
 
 .header {
     font-family: "Cambria", "Times New Roman", sans-serif;
@@ -99,30 +141,6 @@
 
 
 /* About CSS styling */
-
-.nav_button button {
-    background-color: white;
-    border: 2px solid #5c5c5c;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.nav_button button:hover {
-    background-color: #5c5c5c;
-}
-
-.nav_button a {
-    text-decoration: none;
-    color: #5c5c5c;
-    font-size: 16px;
-}
-
-.nav_button button:hover a {
-    color: white;
-}
 
 p {
     font-family: "Cambria", "Times New Roman", sans-serif;
