@@ -22,22 +22,6 @@
     transition: all 0.3s ease;
 }
 
-.nav_button button::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 50%;
-    background-color: #5c5c5c;
-    transition: all 0.3s ease;
-}
-
-.nav_button button:hover::after {
-    width: 100%;
-    left: 0;
-}
-
 .nav_button a {
     text-decoration: none;
     color: black;  /* Changed from #5c5c5c to black */
@@ -45,6 +29,22 @@
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
+    position: relative;
+}
+
+.nav_button a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.nav_button a:hover::after {
+    width: 100%;
 }
 
 /* Remove or comment out .nav_button button:hover a since we want to keep text black */
